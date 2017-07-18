@@ -9,7 +9,7 @@
         android:id="@+id/tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="项目类型"
         android:textSize="15dp"
         android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
@@ -19,13 +19,14 @@
         android:layout_below="@id/tv_title"
         android:layout_marginTop="10dp"
         android:textSize="15dp"
+        android:entries="@array/project"
         android:layout_centerHorizontal="true"
-        android:layout_width="100dp"
+        android:layout_width="130dp"
         android:layout_height="30dp"
         />
     <TextView
         android:id="@+id/tv_bid"
-        android:text="@string/app_name"
+        android:text="中标金额："
         android:textSize="15dp"
         android:layout_below="@id/sp_title"
         android:layout_marginTop="40dp"
@@ -37,14 +38,77 @@
         android:layout_below="@id/tv_bid"
         android:layout_centerHorizontal="true"
         android:hint="@string/app_name"
+        android:digits="0123456789."
         android:textSize="15dp"
         android:layout_width="200dp"
-        android:layout_height="15dp" />
+        android:layout_height="20dp" />
     <TextView
         android:id="@+id/tv_bidmoney"
-        android:text="@string/app_name"
+        android:text="万元"
         android:layout_below="@id/tv_bid"
         android:layout_toRightOf="@id/et_bidmoney"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_bound"
+        android:text="折扣："
+        android:textSize="15dp"
+        android:layout_below="@id/et_bidmoney"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_bound"
+        android:layout_below="@id/tv_bound"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/app_name"
+        android:digits="0123456789."
+        android:textSize="15dp"
+        android:layout_width="200dp"
+        android:layout_height="20dp" />
+    <TextView
+        android:id="@+id/tv_boundmoney"
+        android:text="%"
+        android:layout_below="@id/tv_bound"
+        android:layout_toRightOf="@id/et_bound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_finish_title"
+        android:layout_below="@id/et_bound"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="计算结果："/>
+    <TextView
+        android:id="@+id/tv_finish_money"
+        android:text="123545564"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/tv_finish_title"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/tv_finish_title"
+        android:text="万元"
+        android:layout_toRightOf="@id/tv_finish_money"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/bt_count"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_finish_money"
+        android:text="计算"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
 </RelativeLayout>
