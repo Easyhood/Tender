@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rgk.qiguan.tenderagency.MainActivity">
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        />
+    <Spinner
+        android:id="@+id/sp_title"
+        android:layout_below="@id/tv_title"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        />
+    <TextView
+        android:id="@+id/tv_bid"
+        android:text="@string/app_name"
+        android:textSize="15dp"
+        android:layout_below="@id/sp_title"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_bidmoney"
+        android:layout_below="@id/tv_bid"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/app_name"
+        android:textSize="15dp"
+        android:layout_width="200dp"
+        android:layout_height="15dp" />
+    <TextView
+        android:id="@+id/tv_bidmoney"
+        android:text="@string/app_name"
+        android:layout_below="@id/tv_bid"
+        android:layout_toRightOf="@id/et_bidmoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
