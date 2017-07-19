@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.rgk.qiguan.tenderagency.MainActivity">
+    tools:context="com.rgk.qiguan.tenderagency.ui.MainActivity">
     <TextView
         android:id="@+id/tv_title"
         android:layout_width="wrap_content"
@@ -12,8 +12,8 @@
         android:text="项目类型"
         android:textSize="15dp"
         android:layout_marginTop="20dp"
-        android:layout_centerHorizontal="true"
-        />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
     <Spinner
         android:id="@+id/sp_title"
         android:layout_below="@id/tv_title"
