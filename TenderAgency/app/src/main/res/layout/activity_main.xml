@@ -5,110 +5,161 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.rgk.qiguan.tenderagency.ui.MainActivity">
-    <TextView
+    <RelativeLayout
         android:id="@+id/tv_title"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="项目类型"
-        android:textSize="15dp"
         android:layout_marginTop="20dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:background="@android:color/holo_green_light">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/first_step"
+            android:textSize="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
     <Spinner
         android:id="@+id/sp_title"
-        android:layout_below="@id/tv_title"
-        android:layout_marginTop="10dp"
         android:textSize="15dp"
         android:entries="@array/project"
-        android:layout_centerHorizontal="true"
         android:layout_width="130dp"
         android:layout_height="30dp"
-        />
-    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/tv_title"
+        android:layout_marginLeft="20dp"/>
+
+    <RelativeLayout
         android:id="@+id/tv_bid"
-        android:text="中标金额："
-        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:layout_below="@id/sp_title"
-        android:layout_marginTop="40dp"
-        android:layout_centerHorizontal="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:background="@android:color/holo_green_light">
+        <TextView
+            android:text="@string/second_step"
+            android:textSize="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
     <EditText
         android:id="@+id/et_bidmoney"
-        android:layout_below="@id/tv_bid"
-        android:layout_centerHorizontal="true"
-        android:hint="@string/app_name"
+        android:hint="0"
         android:digits="0123456789."
         android:textSize="15dp"
-        android:layout_width="200dp"
-        android:layout_height="20dp" />
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|right"
+        android:layout_alignBaseline="@+id/tv_bidmoney"
+        android:layout_alignBottom="@+id/tv_bidmoney"
+        android:layout_centerHorizontal="true" />
     <TextView
         android:id="@+id/tv_bidmoney"
-        android:text="万元"
+        android:text="@string/ten_thousand"
+        android:textSize="15dp"
+        android:textColor="@android:color/black"
         android:layout_below="@id/tv_bid"
         android:layout_toRightOf="@id/et_bidmoney"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <TextView
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"/>
+    <RelativeLayout
         android:id="@+id/tv_bound"
-        android:text="折扣："
-        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_below="@id/et_bidmoney"
-        android:layout_marginTop="40dp"
-        android:layout_centerHorizontal="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:background="@android:color/holo_green_light"
+        android:layout_marginTop="40dp">
+        <TextView
+            android:text="@string/third_step"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
     <EditText
         android:id="@+id/et_bound"
-        android:layout_below="@id/tv_bound"
-        android:layout_centerHorizontal="true"
-        android:hint="@string/app_name"
+        android:hint="0"
         android:digits="0123456789."
         android:textSize="15dp"
-        android:layout_width="200dp"
-        android:layout_height="20dp" />
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|right"
+        android:layout_alignBaseline="@+id/tv_boundmoney"
+        android:layout_alignBottom="@+id/tv_boundmoney"
+        android:layout_centerHorizontal="true" />
+    <RelativeLayout
+        android:id="@+id/bt_count"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/tab_green_dark_selector"
+        android:gravity="center"
+        android:layout_above="@+id/relativeLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp">
+        <TextView
+            android:text="@string/count"
+            android:textSize="15dp"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
     <TextView
         android:id="@+id/tv_boundmoney"
         android:text="%"
-        android:layout_below="@id/tv_bound"
-        android:layout_toRightOf="@id/et_bound"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <TextView
-        android:id="@+id/tv_finish_title"
-        android:layout_below="@id/et_bound"
-        android:layout_marginTop="50dp"
-        android:textSize="20dp"
-        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="计算结果："/>
-    <TextView
-        android:id="@+id/tv_finish_money"
-        android:text="123545564"
-        android:textSize="20dp"
-        android:layout_centerHorizontal="true"
-        android:layout_width="wrap_content"
-        android:layout_below="@id/tv_finish_title"
-        android:layout_height="wrap_content" />
-    <TextView
-        android:layout_below="@id/tv_finish_title"
-        android:text="万元"
-        android:layout_toRightOf="@id/tv_finish_money"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="5dp"
         android:textSize="15dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/bt_count"
-        android:layout_marginTop="15dp"
+        android:textColor="@android:color/black"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/et_bound" />
+    <RelativeLayout
+        android:layout_width="375dp"
+        android:layout_height="190dp"
+        android:background="@drawable/rectangle_line_bac"
+        android:id="@+id/relativeLayout"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_below="@id/tv_finish_money"
-        android:text="计算"
-        android:textSize="15dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:id="@+id/tv_finish_title"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+             android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/result"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:id="@+id/tv_finish_money"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_finish_title"
+            android:layout_alignStart="@+id/tv_finish_title"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:id="@+id/tv_finish_count_money"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_below="@+id/tv_finish_money"
+            android:layout_alignStart="@+id/tv_finish_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"/>
+    </RelativeLayout>
+
+
 
 
 </RelativeLayout>

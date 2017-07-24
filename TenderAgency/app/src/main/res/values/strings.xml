@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">TenderAgency</string>
+    <string name="first_step">Step 1: choose computing project</string>
+    <string name="second_step">Step 2: enter the bid amount</string>
+    <string name="third_step">Step 3: enter the discount</string>
+    <string name="ten_thousand">ten thousand</string>
+    <string name="count">click calculated</string>
+    <string name="result">result：</string>
+    <string name="standard_charge">standard charge：</string>
+    <string name="discount_charges">discount charges（after discount）：</string>
 </resources>

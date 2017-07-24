@@ -1,3 +1,11 @@
 <resources>
-
+    <string name="app_name">招标代理费计算</string>
+    <string name="first_step">第一步：选择计算项目</string>
+    <string name="second_step">第二步：输入中标金额</string>
+    <string name="third_step">第三步：输入优惠折扣</string>
+    <string name="ten_thousand">万元</string>
+    <string name="count">点我计算</string>
+    <string name="result">结果：</string>
+    <string name="standard_charge">标准收费：</string>
+    <string name="discount_charges">优惠收费（打折后）：</string>
 </resources>
