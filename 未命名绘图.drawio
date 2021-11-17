@@ -1,1 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2021-11-17T07:16:11.246Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="Nooi-pZe_d471rPgcNON" version="15.7.4" type="github"><diagram name="Page-1" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">xVZdk5owFP01edwOEBf1UT7c7cN2OuN0+hzJBdINCY1Bsb++iQQB2W37UnfGwXDuyT0315gThOOqfVKkLl8kBY4Cj7YIJygI/EUQIPvx6LlDlj7ugEIx6kgDsGO/wIGeQxtG4TAhaim5ZvUUzKQQkOkJRpSSpyktl3yqWpMCZsAuI3yOfmdUlx26CsIBfwZWlL2yH667yJ5kr4WSjXB6QgroIhXp07g1HkpC5WkE4RThWEmpu1HVxsBtW/uOdfO270SvJSsQ+l8mBK7kI+GNWzYKQm7mRrUtT59dN8Kfja0pqogqmEB4Y6KLujVPb/Q0BPsrQasfCGeF42WmGFBDDjMq3PdFaX8LND2gGKefMpQu0XqDVouKGOk0ROsQRWs7iDBaP/azzCqb20wGm2XfqzdY9S1Wzlh/b8i4CR3+wCHXXXBlg7ct+Ey/KvnD7t4/lPJ/hGPO7Ca5s+4XUsG9NRM4ZIrVmklxb+mdJkonRN99zamgHyEbKzCqdHP3ffWtph8jnAqy50Dnh8v1r/1ChLEK9XZhwaSk4AhKM2NBm+70TLSsDc2dpUlXSiQNK+cX28iZOc5xlEuhnYH6gXvfkopxa73PwI9gs9pTTVfckszwoJV8hVhyqS7a2PMwDkMb6U3J0qzCiJQsUn/76CTmk2f24xzJrgvaEeTs6AlkBVqdDcVFl7019rcG93oaLNgPHVaO7Pd6bSDO9otr6sH/zMBZYP86WO0lNrrK4PQ3</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-17T08:12:16.819Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="grp2m3BoAIfLSrtHzLqT" version="15.7.4" type="github">
+  <diagram name="Page-1" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EKuOJ4cv29JxxuzC1nA7-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="29" target="EKuOJ4cv29JxxuzC1nA7-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;&lt;u&gt;rild.c的main方法&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;设置服务名 clientId&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;设置lib库地址 rilLibPath&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;链接lib库&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
+          <mxGeometry x="720" y="70" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EKuOJ4cv29JxxuzC1nA7-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EKuOJ4cv29JxxuzC1nA7-29" target="EKuOJ4cv29JxxuzC1nA7-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EKuOJ4cv29JxxuzC1nA7-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EKuOJ4cv29JxxuzC1nA7-29" target="EKuOJ4cv29JxxuzC1nA7-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EKuOJ4cv29JxxuzC1nA7-29" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;&lt;u&gt;开启event_loop循环&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;RIL_startEventLoop()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="720" y="230" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EKuOJ4cv29JxxuzC1nA7-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EKuOJ4cv29JxxuzC1nA7-31" target="EKuOJ4cv29JxxuzC1nA7-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EKuOJ4cv29JxxuzC1nA7-31" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;&lt;u&gt;寻找RIL_Init函数地址&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;rilInit =&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;(const RIL_Radio&lt;span&gt;Functions&amp;nbsp;&lt;/span&gt;&lt;span&gt;*(*)(const&amp;nbsp;&lt;/span&gt;&lt;span&gt;struct RIL_Env *,&amp;nbsp;&lt;/span&gt;&lt;span&gt;int, char **))&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&amp;nbsp;&lt;span&gt;dlsym&lt;/span&gt;&lt;span&gt;(dlHandle, &quot;RIL_Init&quot;);&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="615" y="360" width="370" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EKuOJ4cv29JxxuzC1nA7-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EKuOJ4cv29JxxuzC1nA7-33" target="EKuOJ4cv29JxxuzC1nA7-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EKuOJ4cv29JxxuzC1nA7-33" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;&lt;u&gt;调用Ril_init方法并获取回调函数&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;RIL_startEventLoop()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="700" y="510" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EKuOJ4cv29JxxuzC1nA7-35" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;&lt;u&gt;注册得到的reference的回调函数&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;RIL_register(funcs)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="700" y="650" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EKuOJ4cv29JxxuzC1nA7-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EKuOJ4cv29JxxuzC1nA7-37" target="EKuOJ4cv29JxxuzC1nA7-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EKuOJ4cv29JxxuzC1nA7-37" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;&lt;u&gt;eventLoop&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;/hardware/ril/libril/ril.cpp&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;RIL_startEventLoop(void)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="1235" y="225" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EKuOJ4cv29JxxuzC1nA7-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="EKuOJ4cv29JxxuzC1nA7-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1301" y="430" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKuOJ4cv29JxxuzC1nA7-41" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;&lt;u&gt;创建线程并运行eventLoop&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;int result = pthread_create(&amp;amp;s_tid_dispatch, &amp;amp;attr, eventLoop, NULL);&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="1130" y="370" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EKuOJ4cv29JxxuzC1nA7-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EKuOJ4cv29JxxuzC1nA7-43" target="EKuOJ4cv29JxxuzC1nA7-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EKuOJ4cv29JxxuzC1nA7-43" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;&lt;u&gt;创建event&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;ril_event_set (&amp;amp;s_wakeupfd_event,&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;s_fdWakeupRead, true,&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; processWakeupCallback, NULL);&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="1220" y="510" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EKuOJ4cv29JxxuzC1nA7-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1140" y="430" as="sourcePoint" />
+            <mxPoint x="1140" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKuOJ4cv29JxxuzC1nA7-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EKuOJ4cv29JxxuzC1nA7-46" target="EKuOJ4cv29JxxuzC1nA7-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EKuOJ4cv29JxxuzC1nA7-46" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;&lt;u&gt;event初始化&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;ril_event_init()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="1100" y="520" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EKuOJ4cv29JxxuzC1nA7-49" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;&lt;u&gt;event初始化&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;ril_event_init()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="1100" y="660" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EKuOJ4cv29JxxuzC1nA7-51" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;&lt;u&gt;加入到队列中唤醒&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;rilEventAddWakeup&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;(&amp;amp;s_wakeupfd_event);&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="1275" y="650" width="130" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
