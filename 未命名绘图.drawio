@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-18T02:51:41.891Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="Id9PLPYB9pReTzSSHG6R" version="15.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-18T02:59:16.728Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="sgD96qEsMFs4HrWQTGKY" version="15.7.4" type="github">
   <diagram name="RILD流程图" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="966" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -20,6 +20,9 @@
           <mxGeometry x="720" y="230" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EKuOJ4cv29JxxuzC1nA7-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EKuOJ4cv29JxxuzC1nA7-31" target="EKuOJ4cv29JxxuzC1nA7-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WiDxoxZlmCFufiCdWleU-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EKuOJ4cv29JxxuzC1nA7-31" target="WiDxoxZlmCFufiCdWleU-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EKuOJ4cv29JxxuzC1nA7-31" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;&lt;u&gt;寻找RIL_Init函数地址&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;rilInit =&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;(const RIL_Radio&lt;span&gt;Functions&amp;nbsp;&lt;/span&gt;&lt;span&gt;*(*)(const&amp;nbsp;&lt;/span&gt;&lt;span&gt;struct RIL_Env *,&amp;nbsp;&lt;/span&gt;&lt;span&gt;int, char **))&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&amp;nbsp;&lt;span&gt;dlsym&lt;/span&gt;&lt;span&gt;(dlHandle, &quot;RIL_Init&quot;);&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
@@ -130,6 +133,9 @@
         </mxCell>
         <mxCell id="EKuOJ4cv29JxxuzC1nA7-75" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;&lt;u&gt;firePending()&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;从pending_list中移除&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;removeFromList(ev);&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;调用ev-&amp;gt;func处理事件&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;ev-&amp;gt;func(ev-&amp;gt;fd, 0, ev-&amp;gt;param);&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
           <mxGeometry x="1460" y="1000" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WiDxoxZlmCFufiCdWleU-29" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;&lt;u&gt;寻找RIL_Init函数地址&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;rilInit =&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;(const RIL_Radio&lt;span&gt;Functions&amp;nbsp;&lt;/span&gt;&lt;span&gt;*(*)(const&amp;nbsp;&lt;/span&gt;&lt;span&gt;struct RIL_Env *,&amp;nbsp;&lt;/span&gt;&lt;span&gt;int, char **))&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&amp;nbsp;&lt;span&gt;dlsym&lt;/span&gt;&lt;span&gt;(dlHandle, &quot;RIL_Init&quot;);&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="165" y="360" width="370" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
