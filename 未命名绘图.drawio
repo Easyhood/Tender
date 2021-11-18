@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-18T07:18:41.574Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="6_QbIsKs49x6_8iiEKmR" version="15.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-18T07:25:32.913Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="FS-dfmMlpBBvAKruWrpf" version="15.7.4" type="github">
   <diagram name="RILD流程图" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="3015" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -192,6 +192,30 @@
             <Array as="points">
               <mxPoint x="520" y="1200" />
               <mxPoint x="290" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiDxoxZlmCFufiCdWleU-53" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.37;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WiDxoxZlmCFufiCdWleU-48" target="EKuOJ4cv29JxxuzC1nA7-72">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="980" as="sourcePoint" />
+            <mxPoint x="1080" y="1320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="930" y="1070" />
+              <mxPoint x="980" y="1150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WiDxoxZlmCFufiCdWleU-54" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EKuOJ4cv29JxxuzC1nA7-51" target="EKuOJ4cv29JxxuzC1nA7-72">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="780" as="sourcePoint" />
+            <mxPoint x="1110" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1330" y="750" />
+              <mxPoint x="1320" y="770" />
+              <mxPoint x="1270" y="750" />
+              <mxPoint x="1170" y="760" />
+              <mxPoint x="1110" y="850" />
+              <mxPoint x="1200" y="980" />
             </Array>
           </mxGeometry>
         </mxCell>
